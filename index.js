@@ -15,7 +15,7 @@ var listener_a = function(req, res) {
 }
 
 var server_a = http.createServer(listener_a);
-server_a.listen('8080');
+//server_a.listen('80');
 /************************** END of PART 1A ********************************/
 
 
@@ -38,7 +38,7 @@ var listener_b = function(req, res) {
 }
 
 var server_b = http.createServer(listener_b);
-server_b.listen('8081');
+//server_b.listen('80');
 /**************************** END of PART 1B *******************************/
 
 /*************************** PART 2 - fs.open() ****************************/
@@ -73,6 +73,6 @@ var listener_2_open = function(req, res) {
 }
 
 var server_2_open = http.createServer(listener_2_open);
-server_2_open.listen("8082");
+server_2_open.listen("80");
 /*************************** PART 2 - end fs.open() ***********************/
 
